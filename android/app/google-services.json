@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "47547648402",
+    "firebase_url": "https://ostad-assignment-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "ostad-assignment",
+    "storage_bucket": "ostad-assignment.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47547648402:android:ae5b7cc4561767837d194b",
+        "android_client_info": {
+          "package_name": "com.example.my_portfolio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAR2ooPriLYljAaYknu440s8l_6spoOog"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47547648402:android:eb161ce52fed2b827d194b",
+        "android_client_info": {
+          "package_name": "com.example.score_checker_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAR2ooPriLYljAaYknu440s8l_6spoOog"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
