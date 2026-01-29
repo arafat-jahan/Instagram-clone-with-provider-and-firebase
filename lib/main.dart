@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:my_portfolio/responsive/mobile_screen_layout.dart';
+import 'package:my_portfolio/responsive/responsive_layout_screen.dart';
+import 'package:my_portfolio/responsive/web_screen_layout.dart';
+import 'package:my_portfolio/utils/colors.dart';
 
 
 void main() {
@@ -12,8 +16,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Instagram App',
+      title: 'Instagram Clone',
+      theme: ThemeData.dark().copyWith(
+        scaffoldBackgroundColor: mobileBackgroundColor
+      ),
       debugShowCheckedModeBanner: false,
+      home:ResponsiveLayoutScreen(mobileScreenLayout:MobileScreenLayout() ,webScreenLayout:WebScreenLayout() ,),
 
     );
   }
